@@ -1,0 +1,24 @@
+.margin-top-10{
+	margin-top: 10px;
+}
+.padding-top-10{
+	padding-top:10px;
+}
+.sidebar{ 
+	position: fixed;
+	top:51px;
+	left:0;
+	width:200px;
+	height:calc(100vh - 51px);
+}
+.content{
+	margin:51px 0 0 200px;
+	overflow-y: auto;
+	padding: 0 30px;
+}
+.circle{
+	background-color:gray;
+	height:250px;
+	width:250px;
+	border-radius: 50%;
+}
